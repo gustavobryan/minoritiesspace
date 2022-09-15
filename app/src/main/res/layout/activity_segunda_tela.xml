@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cyanwhite"
+    android:orientation="vertical"
+    tools:context=".SegundaTela">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#9DCDF4"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_home_24" />
+
+        <ImageView
+            android:id="@+id/img_lgbt"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_lgbtflag" />
+
+        <ImageView
+            android:id="@+id/img_gender"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/genders" />
+
+        <ImageView
+            android:id="@+id/img_trans"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_flagtrans" />
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="400dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/ic_rawr_dinosaur" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:fontFamily="cursive"
+        android:gravity="center_horizontal"
+        android:text="Bem Vindes!"
+        android:textColor="@color/DeepPink"
+        android:textSize="65sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:text="Você conhece o significado?"
+        android:textColor="@color/grey"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button_frases"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Frase do dia"
+        android:backgroundTint="@color/deepskyblue"/>
+
+</LinearLayout>
+
