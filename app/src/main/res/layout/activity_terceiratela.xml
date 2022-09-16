@@ -14,24 +14,28 @@
         android:padding="16dp">
 
         <ImageView
+            android:id="@+id/ic_home"
             android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_weight="1"
             android:src="@drawable/ic_baseline_home_24" />
 
         <ImageView
+            android:id="@+id/ic_lgbt"
             android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_weight="1"
             android:src="@drawable/ic_lgbtflag" />
 
         <ImageView
+            android:id="@+id/ic_gender"
             android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_weight="1"
             android:src="@drawable/genders" />
 
         <ImageView
+            android:id="@+id/ic_trans"
             android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_weight="1"
@@ -59,6 +63,15 @@
             android:textColor="#57ABF7"
             android:textSize="30sp"
             android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:text="@string/os_termos_trans_transg_nero_e_transexual_podem_ser_utilizados_tanto_para_identidades_masculinas_quanto_femininas_j_o_termo_travesti_utilizado_apenas_pessoas_trans_com_identidades_femininas_desse_modo_o_artigo_e_os_pronomes_corretos_s_o_a_travesti_e_ela" />
+
+
     </LinearLayout>
 
 

@@ -14,24 +14,28 @@
         android:padding="16dp">
 
         <ImageView
+            android:id="@+id/ic_home"
             android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_weight="1"
             android:src="@drawable/ic_baseline_home_24" />
 
         <ImageView
+            android:id="@+id/ic_lgbt"
             android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_weight="1"
             android:src="@drawable/ic_lgbtflag" />
 
         <ImageView
+            android:id="@+id/ic_gender"
             android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_weight="1"
             android:src="@drawable/genders" />
 
         <ImageView
+            android:id="@+id/ic_trans"
             android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_weight="1"
